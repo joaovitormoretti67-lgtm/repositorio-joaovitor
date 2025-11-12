@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Referências e recursos adicionais sobre Vincent van Gogh." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6d/Vincent_van_Gogh_1887.jpg" />
+    <title>Referências - Vincent van Gogh</title>
+</head>
+<body>
+    <div class="site-banner">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg/1280px-Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg" 
+             alt="Terraço do Café à Noite - Vincent van Gogh"
+             loading="eager"
+             fetchpriority="high" />
+    </div>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <a href="index.html">
+                    <img class="brand-img" src="assets/van_gogh_portrait.jpg" alt="Retrato de Vincent van Gogh" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/6/6d/Vincent_van_Gogh_1887.jpg'" />
+                    <h1>Vincent van Gogh</h1>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html">Início</a>
+                <a href="biografia.html">Biografia</a>
+                <a href="obras.html">Obras</a>
+                <a href="cronologia.html">Cronologia</a>
+                <a href="referencias.html">Referências</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Referências e Recursos</h1>
+
+            <article class="references">
+                <h2>Bibliografia Recomendada</h2>
+                <ul>
+                    <li>
+                        <strong>Van Gogh: The Life</strong>
+                        <p>Por Steven Naifeh e Gregory White Smith (2011)</p>
+                        <p>Uma das biografias mais completas e bem pesquisadas sobre o artista.</p>
+                    </li>
+                    <li>
+                        <strong>As Cartas de Vincent van Gogh</strong>
+                        <p>Editado por Leo Jansen, Hans Luijten e Nienke Bakker</p>
+                        <p>Coleção completa da correspondência do artista, principalmente com seu irmão Theo.</p>
+                    </li>
+                    <li>
+                        <strong>Van Gogh: Complete Works</strong>
+                        <p>Por Rainer Metzger e Ingo F. Walther</p>
+                        <p>Catálogo completo das obras do artista com análises detalhadas.</p>
+                    </li>
+                </ul>
+
+                <h2>Museus e Coleções</h2>
+                <div class="museums-grid">
+                    <div class="museum-card">
+                        <h3>Van Gogh Museum</h3>
+                        <p>Amsterdã, Países Baixos</p>
+                        <p>A maior coleção de obras de Van Gogh no mundo.</p>
+                    </div>
+
+                    <div class="museum-card">
+                        <h3>Musée d'Orsay</h3>
+                        <p>Paris, França</p>
+                        <p>Importante coleção do período francês do artista.</p>
+                    </div>
+
+                    <div class="museum-card">
+                        <h3>Kröller-Müller Museum</h3>
+                        <p>Otterlo, Países Baixos</p>
+                        <p>Segunda maior coleção de obras de Van Gogh.</p>
+                    </div>
+                </div>
+
+                <h2>Recursos Online</h2>
+                <div class="online-resources">
+                    <div class="resource-item">
+                        <h3>Cartas de Van Gogh Online</h3>
+                        <p>Arquivo digital com mais de 900 cartas do artista, traduzidas e anotadas.</p>
+                    </div>
+
+                    <div class="resource-item">
+                        <h3>Coleção Digital do Van Gogh Museum</h3>
+                        <p>Acesso online a pinturas, desenhos e cartas do acervo do museu.</p>
+                    </div>
+
+                    <div class="resource-item">
+                        <h3>Google Arts & Culture</h3>
+                        <p>Exposições virtuais e imagens em alta resolução de obras de Van Gogh.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 — Projeto educacional sobre Vincent van Gogh</p>
+            <nav>
+                <a href="index.html">Início</a> •
+                <a href="biografia.html">Biografia</a> •
+                <a href="obras.html">Obras</a>
+            </nav>
+        </div>
+    </footer>
+
+    <style>
+    .references ul {
+        list-style: none;
+        padding: 0;
+    }
+    .references li {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background: rgba(255,255,255,0.5);
+        border-radius: 8px;
+    }
+    .museums-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
+    }
+    .museum-card {
+        padding: 1rem;
+        background: rgba(255,255,255,0.5);
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .museum-card h3 {
+        margin-top: 0;
+        color: #12324b;
+    }
+    .online-resources {
+        display: grid;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+    .resource-item {
+        padding: 1rem;
+        background: rgba(255,255,255,0.5);
+        border-radius: 8px;
+    }
+    .resource-item h3 {
+        margin-top: 0;
+        color: #12324b;
+    }
+    </style>
+</body>
+</html>

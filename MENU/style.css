@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Fontdiner+Swanky&family=Jolly+Lodger&family=Kavoon&family=Kings&family=MedievalSharp&family=Merienda:wght@300..900&family=Metamorphous&family=Nosifer&family=Nova+Oval&family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: #DBCC1F;
+}
+
+header h1{
+     font-family: "Metamorphous", serif;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 3em;
+     padding: 10px;
+     letter-spacing: 2px;  
+     color: rgb(40, 3, 245);  
+
+}
+
+nav a {
+    font-family: "Metamorphous", serif;
+    font-weight: 600;
+    font-style: normal;
+    display: inline;
+    margin: 10px;
+    padding: 15px;
+    color: rgb(40, 3, 245);
+    
+    }
+    
+    nav{
+        text-align: right;
+    }
+
+    .inicio img{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    main{
+        font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+   
+
+
+
+
+
+
+

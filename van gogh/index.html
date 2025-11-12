@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site dedicado à vida e obra de Vincent van Gogh — biografia, obras principais, galeria e legado." />
+    <meta name="author" content="Van Gogh - Projeto educativo" />
+    <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6d/Vincent_van_Gogh_1887.jpg" />
+    <title>Vincent van Gogh — Vida e Obras</title>
+    <meta property="og:title" content="Vincent van Gogh — Vida e Obras" />
+    <meta property="og:description" content="Biografia, galerias e contexto histórico do pintor pós-impressionista Vincent van Gogh." />
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/6d/Vincent_van_Gogh_1887.jpg" />
+        <link rel="preconnect" href="https://upload.wikimedia.org" crossorigin>
+</head>
+<body>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+    <div class="site-banner">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg/1280px-Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg" 
+             alt="Terraço do Café à Noite - Vincent van Gogh"
+             loading="eager"
+             fetchpriority="high" />
+    </div>
+    <header class="site-header">
+            <div class="container header-inner">
+                <div class="brand">
+                    <a href="index.html">
+                        <img class="brand-img" src="assets/van_gogh_portrait.jpg" alt="Retrato de Vincent van Gogh" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/6/6d/Vincent_van_Gogh_1887.jpg'" />
+                    </a>
+                    <h1>Vincent van Gogh</h1>
+                    <p class="tagline">Pintor pós‑impressionista • 1853–1890</p>
+                </div>
+
+                <!-- botão hamburger para mobile -->
+                <button id="nav-toggle" class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu">
+                    <span class="hamburger"></span>
+                </button>
+
+                <nav id="primary-navigation" aria-label="Navegação principal" class="main-nav" data-visible="false">
+                    <a href="index.html">Início</a>
+                    <a href="biografia.html">Biografia</a>
+                    <a href="obras.html">Obras</a>
+                    <a href="cronologia.html">Cronologia</a>
+                    <a href="referencias.html">Referências</a>
+                </nav>
+            </div>
+    </header>
+
+    <main id="main">
+        <section id="hero" class="hero">
+            <div class="hero-inner container">
+                <div class="hero-text">
+                    <h2>"Eu sonho minhas pinturas e depois eu pinto meus sonhos."</h2>
+                    <p class="hero-sub">Vincent van Gogh — um dos artistas mais influentes da história da arte ocidental.</p>
+                    <a class="btn" href="#galeria">Ver Galeria</a>
+                </div>
+                <figure class="hero-art">
+                    <img class="hero-art-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="A Noite Estrelada — 1889" loading="eager" decoding="async" fetchpriority="high" style="width:100%;height:auto;object-fit:cover;max-height:520px;border-radius:6px;" />
+                    <figcaption>A Noite Estrelada, 1889</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="sobre" class="container about">
+            <h2>Sobre Vincent van Gogh</h2>
+            <div class="about-inner">
+                <img class="about-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="A Noite Estrelada — Vincent van Gogh" loading="lazy" decoding="async" fetchpriority="low" />
+                <div class="about-text">
+                    <p>
+                        Vincent Willem van Gogh (30 de março de 1853 — 29 de julho de 1890) foi um pintor holandês, considerado um dos
+                        mais importantes artistas pós‑impressionistas. Sua obra, marcada por cores vibrantes e pinceladas emotivas,
+                        inclui mais de 2.000 trabalhos — entre pinturas, desenhos e esboços. Entre suas obras mais famosas estão
+                        "A Noite Estrelada", "Girassóis" e "Os Comedores de Batatas".
+                    </p>
+                    <p>
+                        Van Gogh teve uma vida curta e atribulada; sofreu com problemas de saúde mental e somente alcançou reconhecimento
+                        póstumo. Hoje, suas pinturas estão entre as mais valorizadas e amplamente exibidas em grandes museus como o
+                        Van Gogh Museum (Amsterdã) e o Musée d'Orsay (Paris).
+                    </p>
+                    <p class="referencias">Fontes: Van Gogh Museum, Rijksmuseum, Wikipedia (pt).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="container timeline">
+            <h2>Linha do tempo</h2>
+            <ul>
+                <li><strong>1853</strong> — Nascimento em Zundert, Países Baixos.</li>
+                <li><strong>1879–1880</strong> — Trabalhou como pregador e começou a desenhar seriamente.</li>
+                <li><strong>1886–1888</strong> — Período em Paris; contato com impressionistas e novas paletas.</li>
+                <li><strong>1888–1889</strong> — Arles e Saint‑Rémy: criação de muitas obras-primas (Girassóis, Noite Estrelada).</li>
+                <li><strong>1890</strong> — Morte em Auvers‑sur‑Oise, França.</li>
+            </ul>
+        </section>
+
+        <section id="galeria" class="container gallery">
+            <h2>Galeria — Obras selecionadas</h2>
+            <p class="gallery-intro">Clique nas imagens para ampliar. Todas as imagens são de domínio público ou provenientes de museus com reprodução autorizada.</p>
+
+            <div class="gallery-grid" aria-live="polite">
+                <figure class="card" tabindex="0" data-full="https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" data-thumb="https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" aria-label="A Noite Estrelada — 1889">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="A Noite Estrelada — 1889" loading="lazy" decoding="async" fetchpriority="low" />
+                    <figcaption>A Noite Estrelada — 1889</figcaption>
+                </figure>
+
+                <figure class="card" tabindex="0">
+                    <svg class="card-art" viewBox="0 0 800 520" role="img" aria-label="Girassóis — placeholder">
+                        <rect width="100%" height="100%" fill="#f6d365" />
+                        <g transform="translate(40,40)" fill="#f59e0b">
+                            <circle cx="120" cy="120" r="60" />
+                            <circle cx="240" cy="160" r="48" />
+                        </g>
+                        <text x="24" y="460" font-family="Playfair Display, serif" font-size="22" fill="#6b3e00">Girassóis — 1888</text>
+                    </svg>
+                    <figcaption>Girassóis — 1888</figcaption>
+                </figure>
+
+                <figure class="card" tabindex="0">
+                    <svg class="card-art" viewBox="0 0 800 520" role="img" aria-label="Os Comedores de Batatas — placeholder">
+                        <rect width="100%" height="100%" fill="#7b5e3c" />
+                        <rect x="80" y="260" width="560" height="120" fill="#a67c52" rx="10" />
+                        <text x="24" y="460" font-family="Playfair Display, serif" font-size="22" fill="#fff">Os Comedores de Batatas — 1885</text>
+                    </svg>
+                    <figcaption>Os Comedores de Batatas — 1885</figcaption>
+                </figure>
+
+                <figure class="card" tabindex="0">
+                    <svg class="card-art" viewBox="0 0 800 520" role="img" aria-label="Ramos de Amendoeira em Flor — placeholder">
+                        <rect width="100%" height="100%" fill="#eaf6ff" />
+                        <g fill="#ffd1dc">
+                            <circle cx="160" cy="140" r="18" />
+                            <circle cx="220" cy="180" r="14" />
+                        </g>
+                        <text x="24" y="460" font-family="Playfair Display, serif" font-size="22" fill="#2b4d6b">Ramos de Amendoeira em Flor — 1890</text>
+                    </svg>
+                    <figcaption>Ramos de Amendoeira em Flor — 1890</figcaption>
+                </figure>
+
+                <figure class="card" tabindex="0">
+                    <svg class="card-art" viewBox="0 0 800 520" role="img" aria-label="Campo de Trigo com Ciprestes — placeholder">
+                        <rect width="100%" height="100%" fill="#f8e9d2" />
+                        <g fill="#d3a34a">
+                            <rect x="60" y="200" width="620" height="18" rx="9" />
+                            <rect x="60" y="230" width="620" height="18" rx="9" />
+                        </g>
+                        <text x="24" y="460" font-family="Playfair Display, serif" font-size="22" fill="#6b3e00">Campo de Trigo com Ciprestes — 1889</text>
+                    </svg>
+                    <figcaption>Campo de Trigo com Ciprestes — 1889</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="citações" class="container quotes">
+            <h2>Citações</h2>
+            <blockquote>
+                "A arte é para consolar aqueles que estão quebrados pela vida." — Vincent van Gogh
+            </blockquote>
+            <blockquote>
+                "Eu sonho minhas pinturas e depois eu pinto meus sonhos." — Vincent van Gogh
+            </blockquote>
+        </section>
+
+        <section id="contato" class="container contact">
+            <h2>Contato & Referências</h2>
+            <p>Este site é um projeto educativo. Fontes e leituras recomendadas:</p>
+            <ul>
+                <li><a href="biografia.html">Biografia Completa</a></li>
+                <li><a href="obras.html">Galeria de Obras</a></li>
+                <li><a href="cronologia.html">Linha do Tempo Detalhada</a></li>
+                <li><a href="referencias.html">Referências e Recursos</a></li>
+            </ul>
+            <p>Créditos das imagens: arquivos públicos do Wikimedia Commons e acervos de museus.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 — Projeto educacional sobre Vincent van Gogh. Imagens de domínio público.</p>
+            <p>Feito com ♥ • <a href="#contato">Fontes e referências</a></p>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lb-close" aria-label="Fechar">×</button>
+        <button class="lb-prev" aria-label="Anterior">‹</button>
+        <div class="lb-content">
+            <img src="" alt="" />
+            <p class="lb-caption"></p>
+        </div>
+        <button class="lb-next" aria-label="Próximo">›</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
